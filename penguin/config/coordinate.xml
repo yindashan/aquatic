@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>coordinate</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/coordinate/simple?sid=15006&amp;region=116.371479,39.90967;116.375781,39.910033;116.37193,39.907547;116.37591,39.907786&amp;key=b0a7db0b3a30f944a21c3682064dc70ef5b738b062f6479a5eca39725798b1ee300bd8d5de3a4ae3&amp;encode=utf-8</url_value>
+		</url>
+		<url>
+			<url_id>1</url_id>
+			<url_value>http://{ip}/coordinate/simple?sid=15005&amp;region=116.459005,40.023178&amp;uid=1234&amp;vers=2.0&amp;direction=1&amp;speed=0&amp;coorretrn=2&amp;key=b0a7db0b3a30f944a21c3682064dc70ef5b738b062f6479a5eca39725798b1ee300bd8d5de3a4ae3&amp;encode=utf-8</url_value>
+		</url>
+		<url>
+			<url_id>2</url_id>
+			<url_value>http://{ip}/coordinate/simple?sid=15003&amp;zoom=5&amp;get=binary&amp;xys=117.27708100000007,36.78224200000005,117.2761720000002,36.78214800000012,117.27411700000016,36.78195000000005,117.27170000000001,36.78173000000015&amp;resType=xml&amp;rid=123&amp;key=b0a7db0b3a30f944a21c3682064dc70ef5b738b062f6479a5eca39725798b1ee300bd8d5de3a4ae3&amp;encode=utf-8</url_value>
+		</url>
+		<url>
+			<url_id>3</url_id>
+			<url_value>http://{ip}/coordinate/simple?sid=15001&amp;xys=116.281,39.8881;116.3744111,39.9120711&amp;resType=xml&amp;rid=123&amp;key=b0a7db0b3a30f944a21c3682064dc70ef5b738b062f6479a5eca39725798b1ee300bd8d5de3a4ae3&amp;encode=utf-8</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>10.22.28.59</server>
+		<server>10.22.28.58</server>
+		<server>10.22.28.57</server>
+		<server>10.22.28.56</server>
+		<server>10.22.28.55</server>
+		<server>10.22.28.143</server>
+		<server>10.22.28.142</server>
+		<server>10.22.28.141</server>
+		<server>10.22.28.140</server>
+		<server>10.22.28.130</server>
+		<server>10.22.28.129</server>
+		<server>10.22.28.128</server>
+		<server>10.22.28.127</server>
+	</serverList>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>amcddbl</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/amcddbl/v2/poi/nocache/B02130XOEK/all</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>dbl.amap.com</server>
+	</serverList>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>traffic</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/traffic?config=trafficinfoCityList&amp;userName=test_user&amp;pcode=MDAwMDAw</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>online.mapabc.com</server>
+	</serverList>
+</config>

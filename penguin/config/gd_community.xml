@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>gd_community</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/gd_community/push_reply/?promptContent=aaa&amp;unreadCount=3&amp;token=79ecb1280eca907a375f9f8cb1da4395f01f0363fd2eea38f82cab2c6efb8366&amp;sign=f3e80a28a26b7e889c2ef85f64b5fb93&amp;test=1</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>iphone.autonavi.com</server>
+	</serverList>
+</config>

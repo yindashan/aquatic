@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>test.jsp</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/test.jsp?t=aps</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>58.68.234.90</server>
+	</serverList>
+</config>

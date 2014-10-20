@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>health</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}:8080/health/healthcheck?agent=config</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>10.15.162.22</server>
+		<server>10.15.162.21</server>
+		<server>10.15.162.20</server>
+		<server>10.15.162.19</server>
+		<server>10.15.161.48</server>
+		<server>10.15.161.47</server>
+		<server>10.15.161.46</server>
+		<server>10.15.161.45</server>
+		<server>10.15.161.44</server>
+		<server>10.15.160.47</server>
+		<server>10.15.160.46</server>
+		<server>10.15.160.45</server>
+		<server>10.15.160.44</server>
+	</serverList>
+</config>

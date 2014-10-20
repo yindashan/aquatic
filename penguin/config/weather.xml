@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>weather</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/weather/info/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;longitude=112.672119&amp;latitude=37.746395&amp;from=audi_monitor_yw</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>10.18.16.33</server>
+		<server>10.18.16.32</server>
+	</serverList>
+</config>

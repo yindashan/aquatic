@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>mapapi</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/mapapi/poi/search-with-id/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;id=B000A8URXB&amp;language=zh-cn&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>1</url_id>
+			<url_value>http://{ip}/mapapi/tips/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;words=fanghengguoji&amp;language=zh-cn&amp;city=010&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>2</url_id>
+			<url_value>http://{ip}/mapapi/poi/search-with-keyword/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;keyword=fanghengjiarijiudian&amp;language=zh-cn&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>3</url_id>
+			<url_value>http://{ip}/mapapi/poi/deepinfo/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;id=B00152EE23&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>4</url_id>
+			<url_value>http://{ip}/mapapi/poi/around-of-latlng?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;language=zh_cn&amp;longitude=116.481004&amp;latitude=39.989099&amp;range=5000&amp;keyword=fanghengjiarijiudian&amp;pagesize=10&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>5</url_id>
+			<url_value>http://{ip}/mapapi/geo/reverse/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;longitude=116.305145&amp;latitude=39.982379&amp;language=zh-cn&amp;from=audi_monitor_yw</url_value>
+		</url>
+		<url>
+			<url_id>6</url_id>
+			<url_value>http://{ip}/mapapi/geo/code/?key=audi&amp;md5=efd07930e15041ba9534021351cfda0a&amp;address=dahengkejidasha&amp;from=audi_monitor_yw</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>10.18.16.50</server>
+		<server>10.18.16.33</server>
+		<server>10.18.16.32</server>
+	</serverList>
+</config>

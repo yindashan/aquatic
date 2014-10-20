@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>poi</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/poi/poi?tiles=1686,775&amp;level=11&amp;cbk=jQuery182040442684409208596_1381310713149&amp;_=1381310714348</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>mapclick.amap.com</server>
+	</serverList>
+</config>

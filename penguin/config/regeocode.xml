@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appname>regeocode</appname>
+	<urlList>
+		<url>
+			<url_id>0</url_id>
+			<url_value>http://{ip}/regeocode?location=120.37104,30.457076&amp;extensions=base&amp;output=xml&amp;language=zh-CN&amp;key=f0f577c0b97d416f142fed74e8bbd3d7</url_value>
+		</url>
+	</urlList>
+	<monitor>
+		<host>10.2.161.15</host>
+		<port>8022</port>
+	</monitor>
+	<serverList>
+		<server>restapitest.amap.com</server>
+	</serverList>
+</config>
